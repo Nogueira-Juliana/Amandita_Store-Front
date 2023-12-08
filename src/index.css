@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+}
+
+body {
+    background: var(--main-color);
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.3s;
+    font-size: 38px;
+    padding: 17px 35px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #000;
+    background: #fff;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.imgLogin {
+    width: 400px;
+    height: 400px;
+}
+
+.logout-btn {
+    margin: 20px;
+}
+
+.logout-btn:hover {
+    cursor: pointer;
+}

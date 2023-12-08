@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+:root {
+  --main-color: #E9CFC2;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 32px auto;
+  padding: 0 2rem;
+  font-family: 'Marck Script', cursive;
+}
