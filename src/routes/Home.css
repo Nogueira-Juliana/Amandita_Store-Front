@@ -1,0 +1,37 @@
+.navbar_home {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 3.5rem;
+    border: 1px solid rgb(153, 146, 146);
+    border-radius: 10%;
+    background: #ffffff3f;
+}
+
+.navbar_home h1 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.logout_btn {
+    width: 1.25rem;
+}
+
+.logout_btn:hover {
+    cursor: pointer;
+}
+
+.navbar_home div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.navbar_home a {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}

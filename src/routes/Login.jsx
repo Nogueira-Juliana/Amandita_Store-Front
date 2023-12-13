@@ -1,26 +1,37 @@
 import React from 'react'
 
 import logo from '../assets/logo_amandita.png';
+import './Login.css'
 
 export default function Login() {
     return (
-        <div>
-            <img className='imgLogin'
-                src={logo}
-                alt='logo'
-            />
-            <h2>Entre na sua conta</h2>
+        <div className='containerLogin'>
+            <div>
 
-            <form>
-                <label>E-mail</label>
+                <h1>Login</h1>
+                <img className='imgLogin'
+                    src={logo}
+                    alt='logo'
+                />
+
+            </div>
+
+            <form className='formLogin'>
+                <label for='email'>E-mail</label>
                 <input
                     type='current-email'
+                    name='email'
+                    placeholder='E-mail'
+                    required
                 />
-                <label>Senha</label>
+                <label for='senha'>Senha</label>
                 <input
                     type='current-password'
+                    name='senha'
+                    placeholder='Senha'
+                    required
                 />
-                <button>Entrar</button>
+                <button className='login_btn'>Entrar</button>
             </form>
 
         </div>
